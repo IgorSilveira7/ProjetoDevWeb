@@ -3,18 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organiza Animes</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 
 <body>
-    <div id="perfilAnime">
-        <h1>Nome do anime</h1>
-        <h3>temporada: ?</h3>
-        <h3>Próximo episodio: ?</h3>
-        <button>Assisti um episodio</button>
-        <button>Fim da temporada</button>
-    </div>
 
+    <header></header>
+
+    <main>
+        <div id="addElement">
+            <h3>Adicionar à lista</h3>
+            <input id="addBtn" type="text">
+            <button>Adicionar</button>
+        </div>
+
+        <div id="myList">
+            <h3>Minha lista</h3>
+            <input id="search" type="text">
+            <button id="searchBtn">Buscar</button>
+
+
+            <label for="ordenaçao">Ordenar por:
+                    <select name="select">
+                            <option value="nome">Nome</option> 
+                            <option value="Data" selected>Data</option>
+                            
+                    </select>
+            </label>
+        
+
+            <ul>
+                <li>DBZ <a href="">Acessar</a> </li>
+                <li>CDZ <a href="">Acessar</a> </li>
+                <li>Pokemon <a href="">Acessar</a> </li>
+                <li>Digimon <a href="">Acessar</a> </li>
+            </ul>
+
+        </div>
+
+        <div id="Favoritos">
+            <h3>Meus Favoritos</h3>
+            <input id="favoritos" type="text">
+            <button id="favBtn">Adicionar</button>
+
+            <ul>
+                <li>Death Note</li>
+                <li>Fullmetal Alchemist</li>
+            </ul>
+
+        </div>
+
+        <div id="toWatch">
+            <h3>Recomendações para assistir</h3>
+            <input id="toWatch" type="text">
+            <button id="toWatchBtn">Adicionar</button>
+
+            <ul>
+                <li>Kuroko no basket</li>
+                <li>Ano hana</li>
+                <li>No game no life</li>
+                
+            </ul>
+        </div>
+
+    </main>
     
 </body>
 </html>
