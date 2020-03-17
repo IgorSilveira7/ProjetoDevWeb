@@ -1,5 +1,11 @@
 ### ProjetoDevWeb
-Repositório voltado para o projeto da disciplina de princípios de desenvolvimento web
+Repositório voltado para o projeto da disciplina de princípios de desenvolvimento web.
+
+
+## Repositório do backend
+
+Link: https://github.com/IgorSilveira7/ProjetoDevWeb-Backend
+
 
 
 # Organiza animes
