@@ -3,7 +3,7 @@ import AddAnimeModal from './addAnimeModal';
 import {Modal, Button, Row, Col, Form} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function AddAnime() {
+function AddAnime(props) {
 const [modalShow, setModalShow] = React.useState(false);
 
   return (
@@ -13,6 +13,7 @@ const [modalShow, setModalShow] = React.useState(false);
       </Button>
 
       <AddAnimeModal
+        loadAnimes={props.loadAnimes}
         show={modalShow}
         onHide={() => setModalShow(false)}
       />

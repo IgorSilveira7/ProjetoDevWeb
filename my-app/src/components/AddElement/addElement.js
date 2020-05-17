@@ -1,10 +1,10 @@
 import React from 'react';
 import AddAnime from './addAnime';
 
-function AddElement() {
+function AddElement(props) {
     return(
         <div className="addElement">
-            <AddAnime/>
+            <AddAnime loadAnimes={props.loadAnimes}/>
           </div>
     );
 }
